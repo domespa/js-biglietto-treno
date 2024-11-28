@@ -10,7 +10,7 @@
 const kiloms = Number(prompt("Quanti chilometri devi percorrere?"));
 console.log(kiloms);   
 // 2 - Chiedo all'utente la sua età
-const userAge = Number(prompt("Quanti anni hai?"));
+const userAge = Number(prompt("Quanti anni ha il passeggero?"));
 console.log(userAge);   
 // 3 - Prezzo base per km 0.21 €
 let basePrice = 0.21 * kiloms;
@@ -29,7 +29,4 @@ if (userAge < 18) {
     discountPrice = basePrice;
     alert("Il prezzo del tuo biglietto è " + basePrice.toFixed(2) + "€")
 }
-console.log(discountPrice)
-
-
-    
+console.log(discountPrice)  
